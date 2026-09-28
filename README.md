@@ -15,3 +15,5 @@ Le but est de créer une application web volontairement vulnérable et d'y ajout
 - Base SQLite
 - SQL Injection
 - Système de flags
+
+Le fichier `styles.css` a été réalisé avec l'aide d'une IA. Tout le reste a été fait à la main.
