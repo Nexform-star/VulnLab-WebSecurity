@@ -1,0 +1,57 @@
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>VulnLab - Web Security Lab</title>
+
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+
+<body>
+
+    <main class="container">
+
+        <section class="login-card">
+
+            <div class="logo">
+                <span>VULN</span><strong>LAB</strong>
+            </div>
+
+            <p class="subtitle">Web Security Lab V1</p>
+
+            <div class="separator"></div>
+
+            <h1>Bienvenue sur VulnLab</h1>
+
+            <p class="description">
+                Un petit lab que j'ai fait pour apprendre la sécurité web
+                et tester differentes vulnerabilités.
+            </p>
+
+            <div class="lab-info">
+
+                <h2>Challenges disponibles</h2>
+
+                <ul>
+                    <li><a href="/login">Login</a></li>
+                    <li>Recherche</li>
+                    <li>SQL Injection</li>
+                </ul>
+
+            </div>
+
+
+            <p class="warning">
+                ⚠ Lab local destiné à l'apprentissage de la sécurité web.
+            </p>
+
+        </section>
+
+    </main>
+
+</body>
+</html>
+
