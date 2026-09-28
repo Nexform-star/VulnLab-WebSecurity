@@ -1,0 +1,68 @@
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>VulnLab - Connexion</title>
+
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+
+<body>
+
+    <main class="container">
+
+        <section class="login-card">
+
+            <div class="logo">
+                <span>VULN</span><strong>LAB</strong>
+            </div>
+
+            <p class="subtitle">Web Security Lab V1</p>
+
+            <div class="separator"></div>
+
+            <h1>Connexion</h1>
+
+            <p class="description">
+                Connectez-vous.
+            </p>
+
+            <form method="post" action="/login">
+
+                <div class="input-group">
+                    <label for="username">Nom d'utilisateur</label>
+                    <input
+                        id="username"
+                        name="username"
+                        type="text"
+                        placeholder="Entrez votre nom d'utilisateur"
+                        required
+                    >
+                </div>
+
+                <div class="input-group">
+                    <label for="pass">Mot de passe</label>
+                    <input
+                        id="pass"
+                        name="pass"
+                        type="password"
+                        placeholder="Entrez votre mot de passe"
+                        required
+                    >
+                </div>
+
+                <button type="submit">
+                    Se connecter
+                </button>
+
+            </form>
+        </section>
+
+    </main>
+
+</body>
+</html>
+
